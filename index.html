@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chroia Works</title>
+<meta name="description" content="Chroia Works(クロイアワークス)。色のよろこびを日々の道具に。スマートフォン・Web向けアプリケーションの企画・開発・配信を行う個人事業です。">
+<style>
+:root{
+  --bg:#ffffff; --fg:#1a1a1a; --muted:#6b6b6b; --faint:#e8e8e8; --dim:#f6f6f6;
+  --accent:#b7282e; /* 真紅 */
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#141414; --fg:#eaeaea; --muted:#9a9a9a; --faint:#2c2c2c; --dim:#1d1d1d; --accent:#d0565b; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font-family:"Hiragino Sans","Yu Gothic UI","Noto Sans JP",system-ui,sans-serif;
+  line-height:1.9; font-size:15.5px;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:660px; margin:0 auto; padding:0 24px 80px}
+header{padding:88px 0 40px}
+.mark{
+  width:14px; height:14px; background:var(--accent); border-radius:2px;
+  display:inline-block; margin-bottom:18px;
+}
+h1{
+  font-size:34px; font-weight:700; letter-spacing:.02em; margin:0 0 6px; line-height:1.3;
+}
+.yomi{color:var(--muted); font-size:13px; letter-spacing:.14em; margin:0 0 22px}
+.tag{font-size:16.5px; margin:0; max-width:38em}
+hr{border:0; border-top:1px solid var(--faint); margin:44px 0}
+h2{font-size:13px; letter-spacing:.18em; color:var(--muted); font-weight:600; margin:0 0 16px}
+p{margin:0 0 14px}
+.apps{display:grid; gap:10px; margin:0; padding:0; list-style:none}
+.apps li{
+  display:flex; align-items:baseline; gap:12px;
+  border:1px solid var(--faint); border-radius:6px; padding:12px 16px; background:var(--dim);
+}
+.apps .n{font-weight:600; white-space:nowrap}
+.apps .d{color:var(--muted); font-size:13.5px}
+.apps .s{
+  margin-left:auto; font-size:11px; color:var(--muted); white-space:nowrap;
+  border:1px solid var(--faint); border-radius:99px; padding:2px 10px; background:var(--bg);
+}
+.about dt{font-size:12.5px; color:var(--muted); margin-top:14px}
+.about dd{margin:2px 0 0}
+footer{margin-top:64px; font-size:12.5px; color:var(--muted)}
+footer a{color:var(--muted)}
+a{color:var(--fg); text-underline-offset:3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="mark" aria-hidden="true"></span>
+  <h1>Chroia Works</h1>
+  <p class="yomi">クロイアワークス</p>
+  <p class="tag">色のよろこびを、日々の道具に。<br>記録するほど色が宿るアプリと、最後まで白黒の道具を作っています。</p>
+</header>
+
+<hr>
+
+<section>
+  <h2>PRODUCTS</h2>
+  <p style="color:var(--muted); font-size:13.5px; margin-bottom:16px">現在ベータテスト中です。ストア公開の準備を進めています。</p>
+  <ul class="apps">
+    <li><span class="n">iro家計簿</span><span class="d">つけるほど和色が集まる家計簿</span><span class="s">ベータ</span></li>
+    <li><span class="n">iro 10年日記</span><span class="d">十年をひと目で見わたす日記</span><span class="s">ベータ</span></li>
+    <li><span class="n">iroタスク</span><span class="d">続けた日々が色になるタスク管理</span><span class="s">ベータ</span></li>
+    <li><span class="n">iro図鑑</span><span class="d">日本の伝統色447色の図鑑</span><span class="s">ベータ</span></li>
+    <li><span class="n">sumi復習管理</span><span class="d">忘却曲線にそった復習の道具</span><span class="s">ベータ</span></li>
+    <li><span class="n">sumi時計</span><span class="d">置き時計になる、静かな時計</span><span class="s">ベータ</span></li>
+    <li><span class="n">sumi買い物リスト</span><span class="d">最短で書けて最短で消せるリスト</span><span class="s">ベータ</span></li>
+    <li><span class="n">sumi電卓</span><span class="d">計算の跡が残る白黒の電卓</span><span class="s">ベータ</span></li>
+  </ul>
+</section>
+
+<hr>
+
+<section>
+  <h2>ABOUT</h2>
+  <dl class="about">
+    <dt>屋号</dt><dd>Chroia Works(クロイアワークス)</dd>
+    <dt>事業内容</dt><dd>スマートフォンおよびWeb向けアプリケーションの企画・開発・配信・販売</dd>
+    <dt>名前について</dt><dd>Chroia(χροιά)は古典ギリシャ語で「ものに宿る色あい」。使い込むほど色が宿る道具を、という願いから。</dd>
+    <dt>お問い合わせ</dt><dd>連絡先メールアドレスは準備中です。</dd>
+  </dl>
+</section>
+
+<footer>
+  <p><a href="./privacy.html">プライバシーポリシー</a></p>
+  <p>&copy; 2026 Chroia Works</p>
+</footer>
+
+</div>
+</body>
+</html>
