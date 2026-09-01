@@ -1,11 +1,97 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "jp.chroia.kakeibo",
       "sha256_cert_fingerprints": [
         "67:7A:D5:4B:CC:00:FC:80:4E:3D:6F:8B:09:B7:40:B3:E9:D8:70:45:02:D9:61:7C:D8:98:68:94:CF:05:38:7C"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.nikki",
+      "sha256_cert_fingerprints": [
+        "43:C3:07:BE:32:86:1D:53:86:6D:21:29:90:8E:60:11:B6:13:49:BA:05:72:A2:EE:2E:87:F8:E4:B9:26:AA:4A"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.task",
+      "sha256_cert_fingerprints": [
+        "A3:D9:39:75:C2:B3:82:4A:DC:A0:98:A0:31:BC:36:13:F3:F7:91:F4:BA:43:E4:3F:CE:64:DF:DC:82:18:67:38"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.zukan",
+      "sha256_cert_fingerprints": [
+        "69:03:DB:83:33:94:4A:90:A7:1E:45:12:6B:01:21:1C:EE:20:2D:80:B9:48:B8:14:3C:14:FC:DF:31:46:CA:31"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.fukushu",
+      "sha256_cert_fingerprints": [
+        "62:24:BC:6B:0F:5F:64:4C:91:7A:D6:E4:08:2E:BC:86:10:47:4D:DB:22:36:79:D4:A4:D8:C8:97:1D:40:BE:E9"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.tokei",
+      "sha256_cert_fingerprints": [
+        "0B:F6:BE:B0:86:5D:16:FA:0F:44:18:C9:57:84:E8:61:C3:82:72:C9:CE:B0:D1:A6:A9:54:DE:B3:45:72:B3:E1"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.kaimono",
+      "sha256_cert_fingerprints": [
+        "4B:C3:80:15:48:BE:97:1D:FB:3C:C5:4E:C4:EB:CA:D7:45:C2:90:31:14:E1:E2:0C:2C:70:5E:7C:1E:96:74:EF"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "jp.chroia.dentaku",
+      "sha256_cert_fingerprints": [
+        "94:05:5E:A2:B6:B3:F8:ED:FE:DE:91:39:55:BB:D3:94:1E:AE:71:E8:65:95:94:53:D6:79:79:9E:0F:F0:C1:98"
       ]
     }
   }
