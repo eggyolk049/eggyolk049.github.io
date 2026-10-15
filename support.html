@@ -6,6 +6,10 @@
 <title>サポート — Chroia Works</title>
 <meta name="description" content="Oiko — 家計簿(Chroia Works)のサポートページ。お問い合わせ先と、よくある質問。">
 <link rel="canonical" href="https://eggyolk049.github.io/support.html">
+<link rel="alternate" hreflang="ja" href="https://eggyolk049.github.io/support.html">
+<link rel="alternate" hreflang="en" href="https://eggyolk049.github.io/en/support.html">
+<link rel="alternate" hreflang="x-default" href="https://eggyolk049.github.io/support.html">
+<!-- 英語版は en/support.html。ここを直したら英語版も直す(日本語版が正) -->
 <style>
 :root{ --bg:#ffffff; --fg:#1a1a1a; --muted:#6b6b6b; --faint:#e6e6e6; }
 @media (prefers-color-scheme: dark){
@@ -29,10 +33,14 @@ a{color:var(--fg); text-underline-offset:3px}
 .box b{display:block; margin-bottom:2px}
 footer{margin-top:56px; font-size:12.5px; color:var(--muted)}
 footer a{color:var(--muted)}
+.wrap{position:relative}
+.lang{position:absolute; top:8px; right:14px; margin:0; font-size:12.5px; line-height:1}
+.lang a{display:inline-block; padding:16px 10px; color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="wrap">
+<p class="lang"><a href="./en/support.html" hreflang="en" lang="en">English</a></p>
 
 <h1>サポート</h1>
 <p class="meta">Chroia Works(クロイアワークス)/「Oiko — 家計簿」について</p>
@@ -45,7 +53,7 @@ footer a{color:var(--muted)}
 <p>記録はお客様の端末の中だけに保存されていて、クラウド同期はありません。旧端末のアプリで 設定 → 備え →「書き出す」を押し、できたファイルを新端末に送ってください(AirDrop・メール・ファイルの保存先など)。新端末のアプリで 設定 → 備え →「読み込む」を押すと取り込めます。</p>
 
 <h3>記録を消したいとき、削除をお願いする必要はありますか</h3>
-<p>ありません。記録は端末の中だけにあり、当方は受け取っていないため、当方から削除することもできません。アプリの 設定 → 削除 →「全データを削除」で消すか、端末からアプリを削除してください。アプリを削除すると端末内の記録もあわせて消え、復元はできません。必要な記録は「備え」から書き出してから削除してください。</p>
+<p>ありません。記録は端末の中だけにあり、当方は受け取っていないため、当方から削除することもできません。アプリの 設定 → 削除 →「全データを削除」で消すか、端末からアプリを削除してください。「全データを削除」で消えるのは記録・固定費・「今日は 0円」の印で、予算・色・表示などの設定は残ります。設定まですべて消すには、端末からアプリを削除してください。アプリを削除すると端末内の記録もあわせて消え、復元はできません。必要な記録は「備え」から書き出してから削除してください。</p>
 
 <h3>広告や利用解析はありますか</h3>
 <p>ありません。記録が当方のサーバーへ送られることもありません。くわしくは<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>

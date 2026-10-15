@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chroia Works</title>
 <meta name="description" content="Chroia Works(クロイアワークス)。iPhone 向けの家計簿アプリ「Oiko — 家計簿」を作っている個人事業です。">
+<link rel="alternate" hreflang="ja" href="https://eggyolk049.github.io/">
+<link rel="alternate" hreflang="en" href="https://eggyolk049.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://eggyolk049.github.io/">
+<!-- 英語版は en/index.html。ここを直したら英語版も直す(日本語版が正) -->
 <style>
 :root{
   --bg:#ffffff; --fg:#1a1a1a; --muted:#6b6b6b; --faint:#e8e8e8; --dim:#f6f6f6;
@@ -50,10 +54,14 @@ p{margin:0 0 14px}
 footer{margin-top:64px; font-size:12.5px; color:var(--muted)}
 footer a{color:var(--muted)}
 a{color:var(--fg); text-underline-offset:3px}
+.wrap{position:relative}
+.lang{position:absolute; top:8px; right:14px; margin:0; font-size:12.5px; line-height:1}
+.lang a{display:inline-block; padding:16px 10px; color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="wrap">
+<p class="lang"><a href="./en/index.html" hreflang="en" lang="en">English</a></p>
 
 <header>
   <span class="mark" aria-hidden="true"></span>
@@ -67,7 +75,7 @@ a{color:var(--fg); text-underline-offset:3px}
 <section>
   <p style="color:var(--muted); font-size:13.5px; margin-bottom:16px">iPhone 向けに、App Store で公開予定です。</p>
   <ul class="apps">
-    <li><span class="n">Oiko — 家計簿</span><span class="d">広告なし。手で書く家計簿</span><span class="s">公開予定</span><!--APPSTORE_URL 公開後、直前の <span class="s">公開予定</span> を <a class="s" href="(App Store の URL)">App Store</a> に差し替える。上の「iPhone 向けに、App Store で公開予定です。」は「iPhone 向けに、App Storeで入手可能です。」に。privacy.html の改定日も公開日に--></li>
+    <li><span class="n">Oiko — 家計簿</span><span class="d">広告なし。手で書く家計簿</span><span class="s">公開予定</span><!--APPSTORE_URL 公開後、直前の <span class="s">公開予定</span> を <a class="s" href="(App Store の URL)">App Store</a> に差し替える。上の「iPhone 向けに、App Store で公開予定です。」は「iPhone 向けに、App Storeで入手可能です。」に。privacy.html の改定日も公開日に。英語版 en/index.html・en/privacy.html も同じく--></li>
   </ul>
 </section>
 
